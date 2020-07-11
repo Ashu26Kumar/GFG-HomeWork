@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  margin: 0;
+  font-family: "Montserrat";
+}
+header {
+  margin-bottom: 15px;
+}
+nav,
+footer {
+  background-color: #333;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+.nav-item {
+  margin: 0 10px 0 10px;
+}
+.nav-item > div {
+  display: inline;
+}
+
+img {
+  max-width: 65px;
+  max-height: 65px;
+}
+.about,
+.works,
+.contacts {
+  padding: 3px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  float: right;
+  margin: 22px 10px 0 0;
+}
+.about:hover,
+.works:hover,
+.contacts:hover {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+aside > .Navigation > article {
+  background-color: #eff;
+  min-height: 30px;
+  padding: 10px 0 0 10px;
+  color: #339;
+}
+h2 {
+  margin: 0;
+}
+
+.content > main > p {
+  line-height: 1.5;
+}
+aside > .Navigation > article:hover {
+  background-color: #cff;
+}
+
+aside > .Navigation > .head {
+  font-weight: bolder;
+  background-color: #cff;
+  color: #000;
+}
+main {
+  position: absolute;
+  left: 30%;
+  padding-left: 15px;
+}
+
+aside {
+  width: 30%;
+  position: absolute;
+}
+.content {
+  position: relative;
+  min-height: 663.3px;
+}
+figure,
+footer {
+  text-align: center;
+}
+
+#ice-cream {
+  min-height: 300px;
+  min-width: 300px;
+}
+footer {
+  max-height: 30px;
+  padding-top: 5px;
+}
