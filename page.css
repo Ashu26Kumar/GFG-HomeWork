@@ -63,23 +63,29 @@ aside > .Navigation > .head {
   background-color: #cff;
   color: #000;
 }
-main {
-  position: absolute;
-  left: 30%;
-  padding-left: 15px;
-}
 
-aside {
-  width: 30%;
-  position: absolute;
-}
-.content {
-  position: relative;
-  min-height: 663.3px;
-}
 figure,
 footer {
   text-align: center;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+main {
+  float: right;
+  width: 70%;
+}
+
+main article {
+  margin-left: 15px;
+}
+.content::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 #ice-cream {
